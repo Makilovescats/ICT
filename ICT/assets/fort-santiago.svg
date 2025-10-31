@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="stone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b0a497" />
+      <stop offset="100%" stop-color="#7a6a5e" />
+    </linearGradient>
+    <linearGradient id="gate" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5d4037" />
+      <stop offset="100%" stop-color="#3e2723" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f9f7f3" />
+  <g transform="translate(100,100)">
+    <rect x="40" y="80" width="520" height="320" fill="url(#stone)" rx="24" />
+    <path d="M140 80 L260 0 L380 0 L500 80 Z" fill="#8d6e63" />
+    <path d="M240 240 C240 170 320 160 320 160 C320 160 400 170 400 240 L400 360 L240 360 Z" fill="url(#gate)" />
+    <rect x="200" y="120" width="80" height="80" fill="#d7ccc8" />
+    <rect x="400" y="120" width="80" height="80" fill="#d7ccc8" />
+    <circle cx="320" cy="260" r="18" fill="#fdd835" />
+    <path d="M300 270 L280 320" stroke="#fdd835" stroke-width="6" stroke-linecap="round" />
+    <path d="M340 270 L360 320" stroke="#fdd835" stroke-width="6" stroke-linecap="round" />
+    <path d="M320 280 L320 320" stroke="#fdd835" stroke-width="6" stroke-linecap="round" />
+  </g>
+  <text x="400" y="540" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="42" fill="#3e2723">Fort Santiago Gate</text>
+</svg>
